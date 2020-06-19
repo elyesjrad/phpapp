@@ -1,6 +1,12 @@
 {
     "require": {
-        "phpunit/php-timer": "^5.0"
+        "phpunit/php-timer": "^5.0",
+        "phpunit/phpunit": "^9.2"
 	
-    }
+    },
+"require-dev": {
+    },
+     "autoload": {
+         "psr-0": {"":"phpapp/"}
+}
 }
